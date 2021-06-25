@@ -47,7 +47,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--model_name_or_path",
         type=str,
-        default="bert-base-uncased",
+        default="HooshvareLab/bert-base-parsbert-uncased",
         help="Model Name or Path",
     )
 
@@ -56,7 +56,7 @@ if __name__ == "__main__":
     parser.add_argument("--eval_batch_size", default=32, type=int, help="Batch size for evaluation.")
     parser.add_argument(
         "--max_seq_len",
-        default=384,
+        default=128,
         type=int,
         help="The maximum total input sequence length after tokenization.",
     )
